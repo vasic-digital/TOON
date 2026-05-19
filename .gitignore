@@ -1,16 +1,32 @@
+# CONST-053 — .gitignore + No-Versioned-Build-Artifacts Mandate
+# Round-286 §11.4 enrichment baseline (2026-05-19).
+
+# 1. Build artefacts
 /bin/
 /build/
+/dist/
+/out/
 *.exe
+*.dll
 *.so
 *.dylib
+*.a
+*.o
 *.test
-*.out
-.idea/
-.vscode/
+
+# 2. Cache files
+.cache/
+
+# 3. Temp files
 *.tmp
 *.swp
 *~
 .DS_Store
+Thumbs.db
+*.orig
+*.rej
+
+# 4. Sensitive-data files
 .env
 .env.*
 !.env.example
@@ -19,7 +35,21 @@
 *.crt
 id_rsa*
 id_ed25519*
+.netrc
 secrets/
 api_keys.sh
+
+# 5. Generated reports/logs
 *.log
+*.out
 coverage.out
+htmlcov/
+
+# 6. OS / IDE personal state
+.idea/
+.history/
+.vscode/
+
+# 7. Challenge runner build outputs (the runner is built into a temp dir)
+challenges/runner/runner
+challenges/runner/runner.exe

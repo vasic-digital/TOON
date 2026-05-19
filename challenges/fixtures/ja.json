@@ -1,0 +1,7 @@
+{
+  "locale": "ja",
+  "description": "日本語フィクスチャ — TOON公開APIを通じてセンチネルエラーの動作を検証",
+  "sentinel_narrate": "ネイティブTOONエンコーディングはまだ実装されていません。すべてのMarshal/Unmarshalエントリポイントは、JSONフォールバックという過去のバグを防ぐためにErrTOONEncodingNotImplementedを返します。",
+  "header_sample": "Application/TOON",
+  "payload_sample": "konnichiwa-from-japan"
+}

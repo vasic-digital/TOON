@@ -1,0 +1,7 @@
+{
+  "locale": "sr",
+  "description": "Srpski fixture — kroz TOON javni API proverava ponašanje sentinel greške",
+  "sentinel_narrate": "Nativno TOON kodiranje još nije implementirano; sve Marshal/Unmarshal funkcije vraćaju ErrTOONEncodingNotImplemented da bi sprečile istorijski bluff sa JSON fallback-om.",
+  "header_sample": "application/toon",
+  "payload_sample": "zdravo-iz-srbije"
+}

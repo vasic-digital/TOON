@@ -1,0 +1,7 @@
+{
+  "locale": "en",
+  "description": "English fixture — exercises sentinel-error narrative through the TOON public API",
+  "sentinel_narrate": "TOON native encoding is not yet implemented; every Marshal/Unmarshal entry point returns ErrTOONEncodingNotImplemented to prevent the historical JSON-fallback bluff.",
+  "header_sample": "application/toon; charset=utf-8",
+  "payload_sample": "hello-from-english"
+}

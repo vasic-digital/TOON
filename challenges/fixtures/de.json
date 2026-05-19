@@ -1,0 +1,7 @@
+{
+  "locale": "de",
+  "description": "Deutsches Fixture — übt die Sentinel-Fehler-Erzählung durch die öffentliche TOON-API",
+  "sentinel_narrate": "Native TOON-Kodierung ist noch nicht implementiert; jeder Marshal/Unmarshal-Einstiegspunkt gibt ErrTOONEncodingNotImplemented zurück, um den historischen JSON-Fallback-Bluff zu verhindern.",
+  "header_sample": "APPLICATION/TOON",
+  "payload_sample": "hallo-aus-deutschland"
+}

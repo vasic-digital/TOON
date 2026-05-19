@@ -1,0 +1,7 @@
+{
+  "locale": "es",
+  "description": "Fixture en español — ejerce la narrativa de error centinela a través de la API pública de TOON",
+  "sentinel_narrate": "La codificación nativa TOON aún no está implementada; cada punto de entrada Marshal/Unmarshal devuelve ErrTOONEncodingNotImplemented para evitar el histórico bluff de fallback a JSON.",
+  "header_sample": "application/toon; q=0.9",
+  "payload_sample": "hola-desde-espana"
+}
